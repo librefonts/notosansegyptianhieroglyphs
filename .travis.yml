@@ -15,6 +15,7 @@ env:
   global:
   - secure: g/G3JyjA3UVkYolEDpz9PZZoPwdZHjLx+LVteZZOYRHfMhTR9zqISQOGGJU1ZyFKMVt/k27+zO1WUBH7Aip0TfVQZ8qUJK3rL0k5f+RxNUK0snqFX/bAPl9/+xtN0r3ldIVloJoKKzEr35MVk72EppAq6FfUAwSu4I+ae4/SqAQ=
   - secure: VK7nGUBrqo1OBs/VcHbTV45kmC1dda5eGjv11iDmRnDlropsIsdljQw/o+9+3qe6GMaFKpDstsK2MgTrndDGM0DfEO52DuBrKkjSO4N7tjofWex6L38O7Okjl4uwS61hMl0X/FZaIMocW30gcs6PIwpLN6fFv/xwChRLYN3J1oc=
+  - secure: HwgVz9onBMg3Mmar1P0QFAj6tS6bSeY77TC1+F2R4+35LIIKB1INgR24inB4RoQp8I498Fd2+SOp8zwap2CnRZAEgTkrfPJHY6JPc5RAqI9VW2RHhF1Pt2+If0qTHSREk6+giTTacUuORql34RtOfnBtejslQMu/tMwXxFyCvXw=
 after_success:
 - rm -rf builds/build/sources builds/build/build.state.yaml
 - PATH=/home/travis/virtualenv/python2.7.8/bin/:$PATH travis-deploy.py
