@@ -1,0 +1,24 @@
+{
+  "name": "Noto Sans Egyptian Hieroglyphs",
+  "designer": "Monotype Design team",
+  "license": "",
+  "visibility": "Sandbox",
+  "category": "monospace",
+  "size": 323404,
+  "fonts": [
+    {
+      "name": "Noto Sans Egyptian Hieroglyphs",
+      "style": "normal",
+      "weight": 400,
+      "filename": "NotoSansEgyptianHieroglyphs-Regular.ttf",
+      "postScriptName": "NotoSansEgyptianHieroglyphs",
+      "fullName": "Noto Sans Egyptian Hieroglyphs",
+      "copyright": "Copyright 2013 Google Inc. All Rights Reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2014-10-06"
+}
